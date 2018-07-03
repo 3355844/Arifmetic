@@ -27,5 +27,22 @@ public class Main {
         System.out.println("--i: " + --i);
         i += -3;
         System.out.println(i);
+
+        //    Побітові операції
+        boolean check = true;
+        boolean check2 = false;
+        if (i2 == 10 && i == 2) {
+            System.out.println("&:" + i2);
+        } else if (check == true && check2 == true) {
+            System.out.println("&&:" + check);
+        } else if (check == true || check2 == false) {
+            System.out.println("||:" + check);
+        }
+        if (i2 == 10) {
+            System.out.println("is Ok");
+        } else {
+            System.out.println("Not");
+        }
+
     }
 }
